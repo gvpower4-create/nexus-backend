@@ -10,13 +10,11 @@ import re
 from typing import Optional, List
 
 LISTA_MODELLI = [
+    'gemini-flash-latest',
     'gemini-3.6-flash',
     'gemini-3.5-flash',
-    'gemini-3.5-flash-lite',
-    'gemini-2.5-flash',
-    'gemini-1.5-flash'
+    'gemini-2.5-flash'
 ]
-
 app = FastAPI(title="Nexus Study API", version="7.0")
 from fastapi.middleware.cors import CORSMiddleware
 
